@@ -16,7 +16,7 @@ Homepage: https://github.com/tbursztyka/connman-ui
 Package: connman-ui
 Architecture: any
 Multi-Arch: same
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: connman, ${shlibs:Depends}, ${misc:Depends}
 Pre-Depends: ${misc:Pre-Depends}
 Description: A full-featured GTK-based tray icon UI for ConnMan
  It targets all WM/DM users but Gnome3 ones*. It works on any Linux WM/DM 
