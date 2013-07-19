@@ -1,4 +1,5 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Contact: Tomasz Bursztyka <tomasz.bursztyka@linux.intel.com>
 Source: https://github.com/tbursztyka/connman-ui
 
 Files: *
