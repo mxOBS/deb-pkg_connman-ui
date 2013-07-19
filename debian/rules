@@ -1,0 +1,15 @@
+#!/usr/bin/make -f
+
+include /usr/share/dpkg/architecture.mk
+
+override_dh_auto_configure:
+	./autogen.sh
+	dh_auto_configure -- \
+--prefix=/usr \
+$(CONFIG_OPTS)
+
+override_dh_builddeb:
+	dh_builddeb -- -Zxz -z2
+
+%:
+	dh $@ -- --parallel --with=autoreconf

@@ -1,0 +1,5 @@
+connman-ui (0~20130719-1) unstable; urgency=low
+
+  * Initial release. (Closes #717366)
+
+ -- Shawn Landden <shawnlandden@gmail.com>  Fri, 19 Jul 2013 12:23:07 -0700
