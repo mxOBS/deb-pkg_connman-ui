@@ -1,12 +1,4 @@
 #!/usr/bin/make -f
-
 include /usr/share/dpkg/architecture.mk
-
-override_dh_auto_configure:
-	./autogen.sh
-	dh_auto_configure -- \
---prefix=/usr \
-$(CONFIG_OPTS)
-
 %:
-	dh $@ -- --parallel --with=autoreconf
+	dh $@ --parallel --with autoreconf
