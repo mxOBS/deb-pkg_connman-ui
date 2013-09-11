@@ -1,7 +1,7 @@
 Source: connman-ui
 Section: net
 Priority: optional
-Maintainer: Shawn Landden <shawnlandden@gmail.com>
+Maintainer: Shawn Landden <shawn@churchofgit.com>
 Build-Depends: debhelper (>= 9),
  dh-autoreconf,
  libdbus-1-dev,
