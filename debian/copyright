@@ -11,17 +11,25 @@ Files: lib/dbus.c
 Copyright: © 2012  Intel Corporation. All rights reserved.
 License: LGPL-2.1
 
-data/icons/[bad_signal.png|low_signal.png|medium_signal.png|good_signal.png|network_online.png]
+Files: data/icons/bad_signal.png
+ data/icons/low_signal.png
+ data/icons/medium_signal.png
+ data/icons/good_signal.png
+ data/icons/network_online.png
 Copyright: © Everaldo Coelho (Crystal Clear icon set)
-License: LGPL (unspecified version)
+License: LGPL
  - bad_signal.png, low_signal.png, medium_signal.png, good_signal.png,
  network_online.png:
  .
  LGPL © Everaldo Coelho (Crystal Clear icon set)
 
-data/icons/[cellular.png|ethernet.png|network_connected.png|network_disconnected|tethering.png]
+Files: data/icons/cellular.png
+ data/icons/ethernet.png
+ data/icons/network_connected.png
+ data/icons/network_disconnected.png
+ data/icons/tethering.png
 Copyright: © Gnome Project (Gnome Web icon set)
-License: GPL (unspecified version)
+License: GPL
  - cellular.png, ethernet.png, network_connected.png,
  network_disconnected, tethering.png:
  .
