@@ -9,7 +9,7 @@ License: GPL-2+
 
 Files: lib/dbus.c
 Copyright: © 2012  Intel Corporation. All rights reserved.
-License LGPL-2.1
+License: LGPL-2.1
 
 data/icons/[bad_signal.png|low_signal.png|medium_signal.png|good_signal.png|network_online.png]
 Copyright: © Everaldo Coelho (Crystal Clear icon set)
