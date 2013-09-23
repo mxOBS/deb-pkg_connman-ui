@@ -19,7 +19,7 @@ Multi-Arch: foreign
 Depends: connman, ${shlibs:Depends}, ${misc:Depends}
 Pre-Depends: ${misc:Pre-Depends}
 Description: Full-featured GTK-based tray icon UI for ConnMan
- It targets all WM/DM users but Gnome3 ones*. It works on any Linux WM/DM 
+ It targets all WM/DM users but Gnome3 ones. It works on any Linux WM/DM 
  which provides a freedesktop compliant system tray. (KDE, awesome, ...)
  .
  It exposes almost all features provided by ConnMan API (small features are 
